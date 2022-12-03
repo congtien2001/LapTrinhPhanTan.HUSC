@@ -177,7 +177,9 @@ public class frmRutTien extends javax.swing.JFrame {
 
     private void btnMotTramActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnMotTramActionPerformed
         try {
+            
             if(tt.RutTien(SoTaiKhoan, 100000, "daruttien")) {
+                
                 JOptionPane.showMessageDialog(rootPane, "Giao dịch thành công!", "Thông báo", JOptionPane.INFORMATION_MESSAGE);
             }
             else {
