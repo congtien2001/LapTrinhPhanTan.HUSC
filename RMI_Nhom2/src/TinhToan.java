@@ -18,8 +18,7 @@ public class TinhToan extends UnicastRemoteObject implements ITinhToan{
     public TinhToan() throws RemoteException {
     }
 
-    
-    
+   
     @Override
     public int Cong(int a, int b) throws Exception {
         int s= a+b;
