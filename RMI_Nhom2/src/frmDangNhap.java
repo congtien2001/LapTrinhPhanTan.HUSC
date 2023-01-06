@@ -49,6 +49,12 @@ public class frmDangNhap extends javax.swing.JFrame {
 
         jLabel1.setText("Tên đăng nhập:");
 
+        txtTenDangNhap.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                txtTenDangNhapActionPerformed(evt);
+            }
+        });
+
         jLabel2.setText("Mật khẩu: ");
 
         btnDangNhap.setBackground(new java.awt.Color(0, 153, 255));
@@ -158,6 +164,10 @@ public class frmDangNhap extends javax.swing.JFrame {
             }
         }
     }//GEN-LAST:event_txtMatKhauKeyPressed
+
+    private void txtTenDangNhapActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_txtTenDangNhapActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_txtTenDangNhapActionPerformed
 
     /**
      * @param args the command line arguments
